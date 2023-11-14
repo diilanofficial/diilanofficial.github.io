@@ -38,6 +38,7 @@ body {
 body .container {
     background-color: rgba(131, 174, 188, 0.282);
     width: 480px;
+    max-width: 100vw;
     border-radius: 25px;
     overflow: hidden;
     backdrop-filter: blur(10px);
@@ -51,6 +52,7 @@ body .container .box {
     display: block;
     justify-content: center;
     align-items: center;
+    max-width: 100vw;
 }
 
 .box .box_header {
